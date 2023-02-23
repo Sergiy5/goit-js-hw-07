@@ -25,7 +25,7 @@ const galleryMarkup = makeLinkGalleryItem(galleryItems);
 
 listOfGallery.insertAdjacentHTML("beforeend", galleryMarkup);
 
-// SimpleLightbox
+// SimpleLightbox in work
 const lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   captionDelay: 250,
