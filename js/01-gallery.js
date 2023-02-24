@@ -1,6 +1,4 @@
 import { galleryItems } from "./gallery-items.js";
-// Change code below this line
-
 
     function makeLinkGalleryItem(galleryItems) {
       return galleryItems
