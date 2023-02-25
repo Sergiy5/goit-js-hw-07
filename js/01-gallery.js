@@ -1,4 +1,4 @@
-import { galleryItems } from "./gallery-items.js";
+import { galleryItems } from "./gallery-items.js"
 
     function makeLinkGalleryItem(galleryItems) {
       return galleryItems
@@ -18,6 +18,7 @@ import { galleryItems } from "./gallery-items.js";
         })
         .join("");
 };
+
 
 const containerOfGallery = document.querySelector(".gallery");
 const galleryMarkup = makeLinkGalleryItem(galleryItems);
